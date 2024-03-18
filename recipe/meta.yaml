@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.7
     - pytorch
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
