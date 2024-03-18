@@ -18,7 +18,7 @@ enables automatic differentiation through SGP4 inputs and parameters, as well as
 batch propagation (across different TLEs), with the possibility of leveraging
 embarassingly parallel computations both on CPU and GPU. It also offers the possibility
 of enabling a machine learning module that can enhance SGP4 propagation learning from high-precision
-orbit propagations or ephemeris data. It  also features a TLE module for easily parsing,
+simulated or observed orbital data. It  also features a TLE module for easily parsing,
 interfacing with and constructing Two-Line Elements data.
 
 
