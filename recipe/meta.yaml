@@ -1,7 +1,7 @@
 {% set name = "dsgp4" %}
 {% set org = "esa" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "767e71d945057c804193f6e6bac73b20d26f56cc32cf7cec670bf76730a6cf9b" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "130893895fb516087514c0ed09420e86a29a5c7f75e4e82969d84cb0601d9bfc" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,7 @@ build:
 requirements:
   host:
     - python >=3.7
-    - pip 
+    - pip
     - setuptools
   run:
     - python >=3.7
@@ -39,8 +39,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL3
   license_file: LICENSE
-  summary: 'dSGP4 is a differentiable SGP4 program, which also supports 
-ML-enhanced orbital propagation.'
+  summary: 'dSGP4 is a differentiable SGP4 program, which also supports ML-enhanced orbital propagation.'
   description: |
     *dsgp4* is a differentiable SGP4 program. It is written using PyTorch, which
     enables automatic differentiation through SGP4 inputs and parameters, as well as 
