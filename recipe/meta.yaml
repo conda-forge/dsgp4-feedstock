@@ -23,6 +23,7 @@ requirements:
     - setuptools
   run:
     - python >=3.7
+    - setuptools
     - pytorch
     - matplotlib-base
 
