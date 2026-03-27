@@ -1,7 +1,7 @@
 {% set name = "dsgp4" %}
 {% set org = "esa" %}
-{% set version = "1.1.5" %}
-{% set sha256 = "4af795f23bf046b9885222ad29e58b17168edb39e869bec0f9e14d75d3b0491a" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "5ea1c55d2404e55f67a9eeb7bdada500ea9afee16d9a49e06756e93cb22a5047" %}
 
 package:
   name: {{ name|lower }}
