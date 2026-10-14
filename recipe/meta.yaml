@@ -1,7 +1,7 @@
 {% set name = "dsgp4" %}
 {% set org = "esa" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "b0703c42d28e70eef3e9daf7aa98931c1ed4445d7d9b8b30be6c914e38cbd269" %}
+{% set version = "1.5.0" %}
+{% set sha256 = "919565b1422e3308710098bb0dae8489097493de59ef913be4196087a37b78a6" %}
 
 package:
   name: {{ name|lower }}
@@ -23,9 +23,8 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - setuptools
+    - numpy
     - pytorch
-    - matplotlib-base
 
 test:
   imports:
