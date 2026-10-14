@@ -24,8 +24,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - setuptools
+    - numpy
     - pytorch
-    - matplotlib-base
 
 test:
   imports:
